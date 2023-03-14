@@ -1,8 +1,13 @@
-import { First, Navbar } from "@/components";
-
+import { First, Navbar, Third } from "@/components";
 
 function Home() {
-  return (<><Navbar/><First/></>);
+  return (
+    <>
+      <Navbar />
+      <First />
+      <Third />
+    </>
+  );
 }
 
 export default Home;

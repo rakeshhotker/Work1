@@ -1,4 +1,4 @@
-import { First, Navbar, Third } from "@/components";
+import { Fifth, First, Fourth, Navbar, Sixth, Third } from "@/components";
 
 function Home() {
   return (
@@ -6,6 +6,9 @@ function Home() {
       <Navbar />
       <First />
       <Third />
+      <Fourth />
+      <Fifth />
+      <Sixth />
     </>
   );
 }

@@ -1,7 +1,7 @@
 export function Second() {
   return (
     <>
-      <div className="w-11/12 h-96 flex justify-around rounded-xl bg-white -mt-40 ml-10 mr-10">
+      <div className="w-11/12 h-[800px] flex justify-around rounded-xl bg-white -mt-40 ml-10 mr-10">
         <div className="flex flex-col justify-around">
           <div className="font-bold text-sky-900 text-5xl text-start">
             What we do

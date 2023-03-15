@@ -1,11 +1,11 @@
 export function Third() {
   return (
     <>
-      <div className="bg-slate-900 text-white font-bold pt-20 text-center">
+      <div className="bg-slate-900 text-white font-bold pt-20 text-center w-screen">
         <div className="text-center font-bold text-3xl">
           What differentiates us
         </div>
-        <div className="pt-20 text-5xl">
+        <div className="pt-40 text-5xl h-[600px]">
           <h1>emphasis on frontier markets</h1>
           {/* <h1>Scale of entertainment content we create</h1>
           <h1>ability to work with us in multiple commercial options</h1>
@@ -15,7 +15,7 @@ export function Third() {
             distributions
           </h1> */}
         </div>
-        <div className="pt-20 text-center">
+        <div className="pt-40 text-center">
           <div className="text-2xl">
             Are you looking for global online entertainment
             <br /> options to expand your reach, engage your users, and

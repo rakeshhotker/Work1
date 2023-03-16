@@ -1,12 +1,15 @@
 import Image from "next/image";
+import Logo from "../assets/WAT.png";
 export function Navbar() {
   return (
     <>
       <div className="flex justify-around bg-slate-900 w-screen h-14 items-center fixed">
-        <div className="flex items-center">
-          <Image src="/assets/WAT.png" width={36.1} height={35.64} />
+        <div className="flex w-40">
+          <div className="w-[40px] h-[40px] pt-1 mr-2">
+            <Image src={Logo} width="37px" height="37px" alt="Logo" />
+          </div>
           <div className="text-slate-100 font-bold">
-            We Are
+            WeAre
             <br />
             Technology
           </div>

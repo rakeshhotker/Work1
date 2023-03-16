@@ -1,4 +1,21 @@
+import { useCallback, useEffect, useState } from "react";
+
 export function Third() {
+  const [collection, _] = useState([
+    "emphasis on frontier markets",
+    "Scale of entertainment content we create",
+    "ability to work with us in multiple commercial options",
+    "universal tech,agile platforms and iGaming solutions with global distributions",
+  ]);
+  const [text, setText] = useState(collection[0]);
+  const shuffle = useCallback(() => {
+    const index = Math.floor(Math.random() * collection.length);
+    setText(collection[index]);
+  }, []);
+  useEffect(() => {
+    const interval = setInterval(shuffle, 3000);
+    return () => clearInterval(interval);
+  }, [shuffle]);
   return (
     <>
       <div className="bg-slate-900 text-white font-bold pt-20 text-center w-screen">
@@ -6,14 +23,7 @@ export function Third() {
           What differentiates us
         </div>
         <div className="pt-40 text-5xl h-[600px]">
-          <h1>emphasis on frontier markets</h1>
-          {/* <h1>Scale of entertainment content we create</h1>
-          <h1>ability to work with us in multiple commercial options</h1>
-          <h1>emphasis on frontier markets</h1>
-          <h1>
-            universal tech,agile platforms and iGaming solutions with global
-            distributions
-          </h1> */}
+          <h1>{text}</h1>
         </div>
         <div className="pt-40 text-center">
           <div className="text-2xl">

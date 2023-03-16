@@ -1,3 +1,5 @@
+import Logo from "../assets/WAT.png";
+import Image from "next/image";
 export function Sixth() {
   return (
     <>
@@ -44,10 +46,12 @@ export function Sixth() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col items-center justify-center mt-10 w-full pt-5 bg-gradient-bottom">
-          <div className="flex text-white">
+        <div className="flex flex-col items-center justify-center mt-10 w-full pt-5 bg-gradient-footer">
+          <div className="flex text-white items-center justify-around w-72">
             <div>POWERED BY</div>
-            <div className="w-32 h-10"></div>
+            <div className="w-[40px] h-[40px] ">
+              <Image src={Logo} width="37px" height="37px" alt="Logo" />
+            </div>
             <div className="text-2xl font-bold">
               We Are
               <br />

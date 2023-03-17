@@ -3,12 +3,18 @@ import { Second } from ".";
 export function First() {
   return (
     <>
-      <div className="bg-slate-900 w-screen">
+      <div className="bg-slate-900 w-screen sm:w-[1400px]">
         <div className="flex flex-col h-full">
-          <div className="h-full w-100 absolute">
-            <video src="/videos/WeAre.mp4" autoPlay loop muted />
+          <div className="h-full w-100 absolute sm:w-[1400px]">
+            <video
+              src="/videos/WeAre.mp4"
+              autoPlay
+              loop
+              muted
+              poster="/videos/WeAre.png"
+            />
           </div>
-          <div className="text-neutral-400 text-9xl font-bold ml-80 mt-20 -z-1 opacity-50">
+          <div className="text-neutral-400 text-9xl font-bold ml-80 mt-20 -z-1 opacity-50 sm:text-8xl">
             WeAre
             <br />
             Technology
@@ -16,7 +22,7 @@ export function First() {
             Group
           </div>
           <div className="h-[600px] relative">
-            <div className="absolute left-[450px] top-32 -mt-20 opacity-200">
+            <div className="absolute left-[450px] top-32 -mt-20 opacity-200 sm:w-[250px] h-[200px] left-[350px]">
               <video
                 src="/videos/Sound.mp4"
                 autoPlay
@@ -29,7 +35,7 @@ export function First() {
                 className=""
               />
             </div>
-            <div className="absolute left-[850px] top-32">
+            <div className="absolute left-[850px] top-32 sm:left-[650px]">
               <div className="w-96 h-10 text-white flex flex-col justify-around">
                 WeAreTechnology Group is a leading provider of premium iGaming
                 products, platforms and management solutions. We offer a

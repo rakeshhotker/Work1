@@ -72,6 +72,75 @@
     #010321 0%,
     rgba(1, 3, 33, 0) 100%
   );
+  --gradient-multi-1: conic-gradient(
+    from 153.68deg at 50% 50%,
+    #000435 -5.13deg,
+    #000436 72.67deg,
+    #fe045e 161.76deg,
+    #e9e500 189.83deg,
+    #67fe5f 211.52deg,
+    #1dccff 243.17deg,
+    #8c379a 293.73deg,
+    #000435 354.87deg,
+    #000436 432.67deg
+  );
+  --gradient-multi-2: conic-gradient(
+    from 153.68deg at 50% 50%,
+    #000435 -5.13deg,
+    #000436 72.67deg,
+    #00b081 170deg,
+    #0efdf7 191.65deg,
+    #88ff02 224.51deg,
+    #01e17c 251.06deg,
+    #000435 354.87deg,
+    #000436 432.67deg
+  );
+  --gradient-multi-3: conic-gradient(
+    from 153.68deg at 50% 50%,
+    #000435 -9deg,
+    #000436 72.67deg,
+    #0900ff 170deg,
+    #fe050f 225.48deg,
+    #ff9302 269.65deg,
+    #0900ff 296.96deg,
+    #000435 351deg,
+    #000436 432.67deg
+  );
+  --gradient-multi-4: conic-gradient(
+    from 153.68deg at 50% 50%,
+    #000435 -5.13deg,
+    #000436 72.67deg,
+    #00d758 170deg,
+    #271d3f 221.25deg,
+    #db0022 277.5deg,
+    #000435 354.87deg,
+    #000436 432.67deg
+  );
+  --gradient-multi-5: conic-gradient(
+    from 153.68deg at 50% 50%,
+    #000435 -5.13deg,
+    #000436 72.67deg,
+    #202df3 142.5deg,
+    #a305fe 191.65deg,
+    #159366 224.51deg,
+    #6cfd00 251.06deg,
+    #000435 354.87deg,
+    #000436 432.67deg
+  );
+  --gradient-multi-6: conic-gradient(
+    from 153.68deg at 50% 50%,
+    #000435 -9deg,
+    #000436 72.67deg,
+    #e80148 133.12deg,
+    #00d8ff 159.39deg,
+    #00d7ff 212.96deg,
+    #c4f132 228.75deg,
+    #0f6ed2 259.71deg,
+    #1567cc 304.54deg,
+    #fb0005 330deg,
+    #000435 351deg,
+    #000436 432.67deg
+  );
   --shadow-custom: 0px 0px 4px rgba(0, 0, 0, 0.04),
     0px 4px 8px rgba(0, 0, 0, 0.06);
   --shadow-brands: 0px 4px 44px rgba(0, 0, 0, 0.1);

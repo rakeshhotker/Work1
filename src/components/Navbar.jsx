@@ -3,7 +3,7 @@ import Logo from "../assets/WAT.png";
 export function Navbar() {
   return (
     <>
-      <div className="flex justify-around bg-slate-900 w-screen h-14 items-center fixed">
+      <div className="flex justify-around bg-slate-900 w-screen h-14 items-center fixed z-10 sm:w-[1400px]">
         <div className="flex w-40">
           <div className="w-[40px] h-[40px] pt-1 mr-2">
             <Image src={Logo} width="37px" height="37px" alt="Logo" />

@@ -1,54 +1,65 @@
 export function Griddiv() {
   return (
     <>
-      <div className="grid grid-rows-2 grid-cols-3 h-[800px] pt-10 gap-x-0 ml-10">
-        <div className="flex flex-col justify-around rounded-xl w-[350px] h-[250px] text-center bg-gradient-brands ml-20 border border-slate-50 shadow-shadow-brands">
-          <div className="text-white text-3xl">
-            <strong>We Are Game</strong>
-          </div>
-          <div className="text-white">
-            A Full Spectrum of iGaming Software and Content Solutions
-          </div>
-        </div>
-        <div className="flex flex-col justify-around rounded-xl w-[350px] h-[250px] text-center bg-gradient-brands border border-slate-50 shadow-shadow-brands">
-          <div className="text-white text-3xl">
-            <strong>We Are</strong>&nbsp;Casino
-          </div>
-          <div className="text-white">
-            A Fresh and dynamic universal online casino solution
+      <div className="grid grid-rows-2 grid-cols-3 h-[800px] gap-x-0 relative">
+        <div className="bg-gradient-brands absolute w-[350px] h-[250px] left-[163px] top-[100px] rounded-xl hover:bg-gradient-multi-1">
+          <div className="absolute w-[250px] h-[250px] bg-gradient-brands-1 left-[calc(50%-250px/2+1px)] top-[calc(50%-250px/2+1px)]">
+            <div className="absolute w-[234px] h-[51px] text-3xl font-light text-center text-white left-[calc(50%-234px/2-2px)] top-[calc(50%-51px/2-26.5px)]">
+              <strong>We Are Game</strong>
+            </div>
+            <div className="absolute w-[248px] h-[70px] text-center text-white left-[calc(50%-248px/2+2px)] top-[calc(50%-70px/2+67px)]">
+              A Full Spectrum of iGaming Software and Content Solutions
+            </div>
           </div>
         </div>
-        <div className="flex flex-col justify-around rounded-xl w-[350px] h-[250px] text-center bg-gradient-brands -ml-20 border border-slate-50 shadow-shadow-brands">
-          <div className="text-white text-3xl">
-            <strong>We Are</strong>&nbsp;Sports
-          </div>
-          <div className="text-white">
-            Fully comprehensive betting site provider & sportsbook package.
-          </div>
-        </div>
-        <div className="flex flex-col justify-around rounded-xl w-[350px] h-[250px] text-center bg-gradient-brands ml-20 border border-slate-50 shadow-shadow-brands -mt-20">
-          <div className="text-white text-3xl">
-            <strong>We Are</strong>&nbsp;Fantasy
-          </div>
-          <div className="text-white">
-            Bring the world of sport to life with a fully customisable fantasy
-            league platform.
+        <div className="bg-gradient-brands absolute w-[350px] h-[250px] left-[545px] top-[100px] rounded-xl hover:bg-gradient-multi-2">
+          <div className="absolute w-[250px] h-[250px] bg-gradient-brands-1 left-[calc(50%-250px/2+1px)] top-[calc(50%-250px/2+1px)]">
+            <div className="absolute w-[234px] h-[51px] text-3xl font-light text-center text-white left-[calc(50%-244px/2-2px)] top-[calc(50%-51px/2-26.5px)]">
+              <strong>We Are Game</strong>
+            </div>
+            <div className="absolute w-[248px] h-[70px] text-center text-white left-[calc(50%-248px/2)] top-[calc(50%-70px/2+67px)]">
+              A Full Spectrum of iGaming Software and Content Solutions
+            </div>
           </div>
         </div>
-        <div className="flex flex-col justify-around rounded-xl w-[350px] h-[250px] text-center bg-gradient-brands border border-slate-50 shadow-shadow-brands -mt-20">
-          <div className="text-white text-3xl">
-            <strong>We Are</strong>&nbsp;Lottery
-          </div>
-          <div className="text-white">
-            Brand-new lottery platforms or adding value to existing projects.
+        <div className="bg-gradient-brands absolute w-[350px] h-[250px] left-[927px] top-[100px] rounded-xl hover:bg-gradient-multi-3">
+          <div className="absolute w-[250px] h-[250px] bg-gradient-brands-1 left-[calc(50%-250px/2+1px)] top-[calc(50%-250px/2+1px)]">
+            <div className="absolute w-[234px] h-[51px] text-3xl font-light text-center text-white left-[calc(50%-234px/2-2px)] top-[calc(50%-51px/2-26.5px)]">
+              <strong>We Are Game</strong>
+            </div>
+            <div className="absolute w-[248px] h-[70px] text-center text-white left-[calc(50%-248px/2+2px)] top-[calc(50%-70px/2+67px)]">
+              A Full Spectrum of iGaming Software and Content Solutions
+            </div>
           </div>
         </div>
-        <div className="flex flex-col justify-around rounded-xl w-[350px] h-[250px] text-center bg-gradient-brands -ml-20 border border-slate-50 shadow-shadow-brands -mt-20">
-          <div className="text-white text-3xl">
-            <strong>We Are</strong>&nbsp;Poker
+        <div className="bg-gradient-brands absolute w-[350px] h-[250px] left-[163px] top-[380px] rounded-xl hover:bg-gradient-multi-4">
+          <div className="absolute w-[250px] h-[250px] bg-gradient-brands-1 left-[calc(50%-250px/2+1px)] top-[calc(50%-250px/2+1px)]">
+            <div className="absolute w-[234px] h-[51px] text-3xl font-light text-center text-white left-[calc(50%-234px/2-2px)] top-[calc(50%-51px/2-26.5px)]">
+              <strong>We Are Game</strong>
+            </div>
+            <div className="absolute w-[248px] h-[70px] text-center text-white left-[calc(50%-248px/2+2px)] top-[calc(50%-70px/2+67px)]">
+              A Full Spectrum of iGaming Software and Content Solutions
+            </div>
           </div>
-          <div className="text-white">
-            Multilingual, multi-currency, and multi-platform poker creation.
+        </div>
+        <div className="bg-gradient-brands absolute w-[350px] h-[250px] left-[545px] top-[380px] rounded-xl hover:bg-gradient-multi-5">
+          <div className="absolute w-[250px] h-[250px] bg-gradient-brands-1 left-[calc(50%-250px/2+1px)] top-[calc(50%-250px/2+1px)]">
+            <div className="absolute w-[234px] h-[51px] text-3xl font-light text-center text-white left-[calc(50%-234px/2-2px)] top-[calc(50%-51px/2-26.5px)]">
+              <strong>We Are Game</strong>
+            </div>
+            <div className="absolute w-[248px] h-[70px] text-center text-white left-[calc(50%-248px/2+2px)] top-[calc(50%-70px/2+67px)]">
+              A Full Spectrum of iGaming Software and Content Solutions
+            </div>
+          </div>
+        </div>
+        <div className="bg-gradient-brands absolute w-[350px] h-[250px] left-[927px] top-[380px] rounded-xl hover:bg-gradient-multi-6">
+          <div className="absolute w-[250px] h-[250px] bg-gradient-brands-1 left-[calc(50%-250px/2+1px)] top-[calc(50%-250px/2+1px)]">
+            <div className="absolute w-[234px] h-[51px] text-3xl font-light text-center text-white left-[calc(50%-234px/2-2px)] top-[calc(50%-51px/2-26.5px)]">
+              <strong>We Are Game</strong>
+            </div>
+            <div className="absolute w-[248px] h-[70px] text-center text-white left-[calc(50%-248px/2+2px)] top-[calc(50%-70px/2+67px)]">
+              A Full Spectrum of iGaming Software and Content Solutions
+            </div>
           </div>
         </div>
       </div>

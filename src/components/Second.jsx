@@ -1,8 +1,8 @@
 export function Second() {
   return (
     <>
-      <div className="w-11/12 h-[800px] flex justify-around rounded-xl bg-transparent -mt-40 ml-10 mr-10">
-        <div className="absolute ml-10 rounded-xl">
+      <div className="w-11/12 h-[800px] flex justify-around bg-transparent -mt-40 ml-10 mr-10 relative rounded-xl">
+        <div className="absolute ml-10 sm:w-[1200px] top-20">
           <video src="/videos/WhatWe.mp4" autoPlay loop muted />
         </div>
         <div className="flex flex-col justify-around z-10">

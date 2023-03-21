@@ -18,7 +18,7 @@ export function Third() {
   }, [shuffle]);
   return (
     <>
-      <div className="bg-slate-900 text-white font-bold pt-20 text-center w-screen h-100 sm:w-[1400px]">
+      <div className="bg-slate-900 text-white font-bold pt-20 text-center w-screen h-100">
         <div className="text-center font-bold text-3xl">
           What differentiates us
         </div>

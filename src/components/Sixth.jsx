@@ -3,7 +3,7 @@ import Image from "next/image";
 export function Sixth() {
   return (
     <>
-      <div className="w-screen h-full bg-slate-900 flex flex-col items-center pt-40 sm:w-[1400px]">
+      <div className="w-screen h-full bg-slate-900 flex flex-col items-center pt-40 ">
         <h1 className="text-white text-center text-4xl">Want to know more?</h1>
         <div className="pt-20 w-[925px] h-[655px] flex flex-col border border-white rounded-xl mt-10 hover:drop-shadow-2xl bg-slate-800">
           <div className="text-center text-white text-3xl">

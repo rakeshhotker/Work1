@@ -1,7 +1,7 @@
 export function Fifth() {
   return (
     <>
-      <div className="w-screen h-[800px] bg-slate-900 text-white relative sm:w-[1400px]">
+      <div className="w-screen h-[800px] bg-slate-900 text-white relative ">
         <div className="text-4xl absolute left-[162px]">
           Why these verticals?
         </div>

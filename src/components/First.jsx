@@ -37,7 +37,7 @@ export function First() {
                 products, platforms and management solutions. We offer a
                 complete portfolio of universal technology solutions that create
                 seamless experiences for our B2B and B2B2C partners worldwide.
-                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full xl:w-32 xl:mt-5 lg:w-28 lg:h-10 lg:text-sm lg:mt-2 md:w-24 md:h-8 md:text-[10px] md:mt-[10px] sm:w-20 sm:h-6 sm:text-[8px] sm:mt-1 sm:py-1">
+                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold xl:py-2 xl:px-4 rounded-full xl:w-32 xl:mt-5 lg:w-28 lg:h-10 lg:text-sm lg:mt-2 md:w-24 md:h-8 md:text-[10px] md:mt-[10px] sm:w-20 sm:h-6 sm:text-[8px] sm:mt-1 sm:py-0">
                   Get in touch
                 </button>
               </div>

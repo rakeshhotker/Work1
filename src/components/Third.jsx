@@ -18,14 +18,14 @@ export function Third() {
   }, [shuffle]);
   return (
     <>
-      <div className="bg-slate-900 text-white font-bold pt-20 text-center w-screen h-100">
+      <div className="bg-slate-900 text-white font-bold pt-20 text-center w-screen sm:-mt-36 relative sm:h-[800px]">
         <div className="text-center font-bold text-3xl">
           What differentiates us
         </div>
-        <div className="pt-40 text-5xl h-[600px] ml-52 max-w-5xl">
+        <div className="md:text-5xl h-[400px] mt-20 sm:text-3xl sm:mx-10 flex flex-col justify-center">
           <h1>{text}</h1>
         </div>
-        <div className="pt-40 text-center">
+        <div className="text-center">
           <div className="text-2xl">
             Are you looking for global online entertainment
             <br /> options to expand your reach, engage your users, and

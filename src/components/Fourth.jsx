@@ -9,7 +9,7 @@ export function Fourth() {
             Our brands
           </h1>
         </div>
-        <div className="text-white font-light  text-xl absolute left-[162px] top-[200px] sm:left-[100px]">
+        <div className="text-white font-light  text-xl absolute left-[162px] top-[200px] sm:left-[100px] sm:w-[600px]">
           Our technology platforms can service multiple client/partner types in
           different formats and territories worldwide.
         </div>

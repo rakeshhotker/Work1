@@ -5,7 +5,7 @@ export function Sixth() {
     <>
       <div className="w-screen h-full bg-slate-900 flex flex-col items-center pt-40 ">
         <h1 className="text-white text-center text-4xl">Want to know more?</h1>
-        <div className="pt-20 md:w-[800px] h-[655px] flex flex-col border border-white rounded-xl mt-10 hover:drop-shadow-2xl bg-slate-800">
+        <div className="pt-20 lg:w-[800px] h-[655px] flex flex-col border border-white rounded-xl mt-10 hover:drop-shadow-2xl bg-slate-800">
           <div className="text-center text-white text-3xl">
             Schedule a call with us
           </div>

@@ -1,4 +1,12 @@
-import { Fifth, First, Fourth, Navbar, Sixth, Third } from "@/components";
+import {
+  Fifth,
+  First,
+  Fourth,
+  Navbar,
+  Sixth,
+  Third,
+  Second,
+} from "@/components";
 import Head from "next/head";
 function Home() {
   return (
@@ -8,6 +16,7 @@ function Home() {
       </Head>
       <Navbar />
       <First />
+      <Second />
       <Third />
       <Fourth />
       <Fifth />

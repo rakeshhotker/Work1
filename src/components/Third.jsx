@@ -26,7 +26,7 @@ export function Third() {
           <h1>{text}</h1>
         </div>
         <div className="text-center">
-          <div className="text-2xl">
+          <div className="sm:text-2xl xsm:text-sm">
             Are you looking for global online entertainment
             <br /> options to expand your reach, engage your users, and
             <br /> increase your monetary value?

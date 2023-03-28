@@ -13,7 +13,7 @@ export function Third() {
     setText(collection[index]);
   }, []);
   useEffect(() => {
-    const interval = setInterval(shuffle, 3000);
+    const interval = setInterval(shuffle, 4000);
     return () => clearInterval(interval);
   }, [shuffle]);
   return (
@@ -22,7 +22,7 @@ export function Third() {
         <div className="text-center font-bold text-3xl">
           What differentiates us
         </div>
-        <div className="md:text-5xl h-[400px] mt-20 sm:text-3xl sm:mx-10 flex flex-col justify-center">
+        <div className="md:text-5xl h-[400px] mt-20 sm:text-3xl sm:mx-10 flex flex-col justify-center xsm:text-[30px]">
           <h1>{text}</h1>
         </div>
         <div className="text-center">

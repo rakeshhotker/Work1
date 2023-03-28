@@ -14,7 +14,7 @@ export function Navbar() {
             Technology
           </div>
         </div>
-        <div className="flex justify-around w-96 text-slate-100 font-light">
+        <div className="flex justify-around sm:w-96 text-slate-100 font-light xsm:w-[200px]">
           <div>Brands</div>
           <div>Why Us</div>
           <div>Contact</div>
